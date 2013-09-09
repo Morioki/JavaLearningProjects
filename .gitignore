@@ -38,6 +38,8 @@ nosetests.xml
 .komodotools/
 *.komodoproject
 *.pdf
+
+# Eclipse/Java Ignores
 .metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
 .metadata/.lock
 .metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
@@ -46,3 +48,9 @@ nosetests.xml
 .metadata/version.ini
 .settings/org.eclipse.jdt.core.prefs
 .classpath
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
